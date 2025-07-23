@@ -1,0 +1,13 @@
+{
+  "name": "gptrooms",
+  "version": "1.0.0",
+  "description": "Recursive GPT-to-GPT conversational loop",
+  "main": "gpt-loop-engine.js",
+  "scripts": {
+    "start": "node gpt-loop-engine.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "openai": "^4.0.0"
+  }
+}
